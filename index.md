@@ -13,9 +13,6 @@ contact: ["amyhodge@stanford.edu"]    # boxed, comma-separated list of contact e
 etherpad: https://pad.carpentries.org/2019-02-13-ttt-stanford            # optional: URL for the workshop Etherpad if there is one
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 locations:
-  - venue: "Online"
-    address: "https://carpentries.zoom.us/j/FIXME"
-
   - venue: "Stanford University"
     address: "Hartley Conference Center, 1st floor, Mitchell Earth Science Building"
     latlng: "37.426666,122.172656"
@@ -170,6 +167,8 @@ site.swc_site }}/conduct/">Code of Conduct</a>.
 
 <h3 id="contact">Contact</h3>
 
+  <p id="contact">
+  <strong>Contact</strong>:
   Please email
   {% if page.contact %}
     {% for contact in page.contact %}
@@ -187,7 +186,6 @@ site.swc_site }}/conduct/">Code of Conduct</a>.
   {% endif %}
   for more information.
 </p>
-
 <hr/>
 
 <h2 id="preparation" name="preparation">Preparation</h2>
